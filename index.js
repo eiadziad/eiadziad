@@ -1,3 +1,6 @@
+const AWS = require("aws-sdk");
+const s3 = new AWS.S3()
+
 const tmi = require('tmi.js'),
     { channel, username, password, client_id, api_access_token, channel_access_token, boy, girl, eiad } = require('./settings.json');
 
